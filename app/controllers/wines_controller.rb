@@ -1,4 +1,5 @@
 class WinesController < ApplicationController
+  include Response
   before_action :set_wine, only: [:show, :update, :destroy]
 
   # GET /wines
